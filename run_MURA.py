@@ -44,8 +44,12 @@ def run_MURA(batch_size,
     # Data processing #
     ###################
 
-    
-    im_size = 320   #测试修改参数 size root_path nb_epoch nb_dense_block         
+     #/home/yu/Documents/tensorflow/MURA/MURA-v1.1
+     # the path of MURA dataset
+
+
+
+    im_size = 320   #测试修改参数 size root_path nb_epoch nb_dense_block
     X_train_path, Y_train = data_loader.load_path(root_path = '../train',size = im_size)  
     X_valid_path, Y_valid = data_loader.load_path(root_path = '../valid', size = im_size)  
 
